@@ -1,0 +1,7 @@
+package per.hyf.wanquanjieou;
+//字符转小写  子类
+public class Downcase extends Processor{
+	String porcess(Object input){
+		return ((String)input).toLowerCase();		//字符转小写
+	}
+}
