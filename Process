@@ -1,0 +1,8 @@
+package per.hyf.wanquanjieou;
+//处理器 基类
+public class Processor {
+	public String name(){
+		return getClass().getSimpleName();
+	}
+	Object process(Object input){return input;}
+}
