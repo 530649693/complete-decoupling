@@ -1,0 +1,7 @@
+package per.hyf.wanquanjieou;
+//字符转大写   子类
+public class Upcase extends Processor{
+	String process(Object input){
+		return ((String)input).toUpperCase(); 		//将字符转换成大写
+	}
+}
