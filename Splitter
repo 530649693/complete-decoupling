@@ -1,0 +1,10 @@
+package per.hyf.wanquanjieou;
+
+import java.util.Arrays;
+
+// 分离器 子类
+public class Splitter extends Processor{
+	String process(Object input){
+		return Arrays.toString(((String)input).split(" ")); 		//遇到空格 分离 加','
+	}
+}
